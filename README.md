@@ -4,5 +4,5 @@
 2. Double click the html and it will open up in the browser
 3. The demo video gives insight on how to navigate the web page
 
-
+Alternatively visit the github page: https://liamdesaldanha.github.io/ComplAI/
 
