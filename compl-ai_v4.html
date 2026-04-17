@@ -471,6 +471,23 @@
   .footer-logo { font-family: var(--font-title); font-size: 14px; font-weight: 700; }
   .footer-logo span { color: var(--green); }
   .footer-text { font-family: var(--font-mono); font-size: 10px; color: var(--white-mute); letter-spacing: 1px; }
+  .footer-authors {
+    border-top: 1px solid var(--border); padding: 18px 48px;
+    background: var(--black); display: flex; flex-wrap: wrap; gap: 6px 32px;
+    align-items: center; justify-content: center;
+  }
+  .footer-authors-label {
+    font-family: var(--font-mono); font-size: 9px; letter-spacing: 2px;
+    color: var(--white-mute); text-transform: uppercase; width: 100%; text-align: center;
+    margin-bottom: 4px;
+  }
+  .footer-author {
+    font-family: var(--font-mono); font-size: 10px; color: var(--white-mute); letter-spacing: 0.5px;
+  }
+  .footer-author a {
+    color: var(--green); text-decoration: none; opacity: 0.7;
+  }
+  .footer-author a:hover { opacity: 1; }
 
   /* ══════════════════════════════════════
      TOPBAR (App pages)
@@ -1928,6 +1945,14 @@
   </section>
 
   <!-- Footer -->
+  <div class="footer-authors">
+    <div class="footer-authors-label">Authors</div>
+    <div class="footer-author">Paige Maritz · <a href="mailto:MRTPAI001@myuct.ac.za">MRTPAI001@myuct.ac.za</a></div>
+    <div class="footer-author">Devin Marais · <a href="mailto:MRSDEV003@myuct.ac.za">MRSDEV003@myuct.ac.za</a></div>
+    <div class="footer-author">Gideon Weiss · <a href="mailto:WSSGID002@myuct.ac.za">WSSGID002@myuct.ac.za</a></div>
+    <div class="footer-author">Amaan Nadvi · <a href="mailto:NDVSYE003@myuct.ac.za">NDVSYE003@myuct.ac.za</a></div>
+    <div class="footer-author">Liam De Saldanha · <a href="mailto:DSLLIA002@myuct.ac.za">DSLLIA002@myuct.ac.za</a></div>
+  </div>
   <footer class="land-footer">
     <div class="footer-logo">Compl<span>AI</span></div>
     <div class="footer-text">© 2026 ComplAI (Pty) Ltd · South Africa · POPIA Compliant Infrastructure</div>
